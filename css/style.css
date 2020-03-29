@@ -1,0 +1,482 @@
+/*-----------------------------------------------------------------
+Template Name  : Wing Hang Khoo Resume
+Author         : Wing Hang Khoo
+Version        : 1.0
+-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------
+Table Of Contents
+--------------------------------
+ 1. Global Styles
+ 2. Main Nav
+ 3. Main Header
+ 4. Home
+ 5. About Me
+ 6. Resume
+ 7. Contact
+ 8. Footer
+ 9. Media Queries
+-----------------------------------------------------------------*/
+
+/* --------------------------------------
+   1. Global Styles
+-----------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #282929;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.name,
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: #f5b109;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*  ==============
+    base layout 
+================= */
+
+.about-me,
+.resume,
+.skills,
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-header,
+.about-me,
+.skills,
+.main-footer {
+  background-color: #2c2d2d;
+}
+
+.main-title h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 1;
+  letter-spacing: 0.7px;
+  margin: 0;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.main-title h3 {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*  ==============
+    main layout 
+================= */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* --------------------------------------
+   2. Main Nav
+-----------------------------------------*/
+
+/*  ==============
+    flexbox
+================= */
+
+.name,
+.main-nav a {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-size: 0.95em;
+}
+
+/* --------------------------------------
+   3. Main Header
+-----------------------------------------*/
+
+.main-header {
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.home h3 {
+  color: #c3c0c0;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.home h1 {
+  color: #fff;
+  font-size: 50px;
+  margin: 30px 0;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.home p {
+  color: #c3c0c0;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.main-title {
+  margin-bottom: 40px;
+}
+
+/* --------------------------------------
+   4. About Me
+-----------------------------------------*/
+
+.about-me .about-intro {
+  color: #fff;
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+/* --------------------------------------
+   5. Resume
+-----------------------------------------*/
+
+.col {
+  padding-bottom: 15px;
+}
+
+.resume .item {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 2px solid #f5b109;
+  background-color: #2c2d2d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume .item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.resume .item .date {
+  color: #f5b109;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.resume .item span {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin-left: 4px;
+  padding-left: 8px;
+  border-left: 1px solid #f5b109;
+}
+
+.resume .item h4 {
+  color: #fff;
+  line-height: 1.8;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.resume .item h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.resume .item h6 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.resume .item p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.icon {
+  background: #f5b109;
+  position: absolute;
+  top: -20px;
+  left: 163px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* --------------------------------------
+   7. Contact
+-----------------------------------------*/
+
+.contact .contact-box {
+  position: relative;
+  text-align: center;
+  padding: 23px 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-left: 2px solid #f5b109;
+}
+
+.icon-box {
+  background: #f5b109;
+  position: absolute;
+  top: -20px;
+  left: 45%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+}
+
+.contact .contact-box h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.content-contact-box {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* --------------------------------------
+   8. Main Footer
+-----------------------------------------*/
+
+.main-footer {
+  text-align: center;
+  color: #fff;
+  padding: 35px 0;
+}
+
+/* --------------------------------------
+   9. Media Queries
+-----------------------------------------*/
+
+@media only screen and (min-width: 768px),
+  only screen and (min-width: 700px) and (orientation: landscape) {
+  /*  ==============
+    base layout 
+================= */
+
+  .home {
+    padding-top: 200px;
+    font-size: 1.5em;
+  }
+
+  .about-me,
+  .resume,
+  .skills,
+  .contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  /*  ==============
+    main header 
+================= */
+  .main-header {
+    position: fixed;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  /*  ==============
+    navigation 
+================= */
+
+  .main-nav {
+    display: flex;
+  }
+
+  .main-nav li {
+    margin-right: 0;
+  }
+
+  .main-nav a {
+    padding: 10px 15px;
+  }
+
+  .main-title .main-nav a {
+    font-size: 0.95em;
+    text-transform: uppercase;
+  }
+
+  /*  ==============
+    resume
+================= */
+
+  .col {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .resume .education,
+  .resume .experience {
+    padding-left: 52px;
+  }
+
+  .icon {
+    top: 10px;
+    left: -53px;
+  }
+
+  /*  ==============
+    contact 
+================= */
+  .contact .contact-boxes {
+    padding-left: 52px;
+  }
+
+  .icon-box {
+    top: 10px;
+    left: -54px;
+  }
+}
+
+@media (min-width: 1140px) {
+  /*  ==============
+    navigation 
+================= */
+
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 14%;
+  }
+
+  .main-nav {
+    padding-right: 14%;
+  }
+
+  .main-nav li {
+    font-size: 20px;
+  }
+
+  /*  ==============
+    main header 
+================= */
+
+  .main-title h3 {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .main-title h2 {
+    font-size: 3em;
+    text-align: left;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .col {
+    flex: 1;
+  }
+
+  .about-image,
+  .about-intro {
+    font-size: 1em !important;
+  }
+
+  /*  ==============
+    resume 
+================= */
+
+  .resume .education,
+  .resume .experience {
+    padding-left: 52px;
+  }
+
+  .resume .education,
+  .resume .experience {
+    width: 50%;
+  }
+
+  .change-height {
+    height: 345px;
+  }
+
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+}
