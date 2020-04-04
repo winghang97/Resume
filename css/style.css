@@ -186,6 +186,27 @@ img {
   font-size: 1.25em;
 }
 
+.button {
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #f5b109;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {
+  background-color: #d1990c;
+}
+
+.button:active {
+  background-color: #d1990c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 /* --------------------------------------
    5. Resume
 -----------------------------------------*/
@@ -356,6 +377,7 @@ img {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    top: 0px;
   }
 
   /*  ==============
