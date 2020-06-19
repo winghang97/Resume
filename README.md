@@ -3,7 +3,7 @@
 This is a repository of my resume I created using HTML and CSS
 
 It has four sections: About Me, My Education and Experience, Skills and Abilities, and Contact me.
-I used `flexbox ` layout as much as I can to make my webpage responsive.
+I used `flexbox` layout as much as I can to make my webpage responsive.
 
 ## About Me
 This section is about me as a person. The picture on the left for my first commit is **NOT** me. I did not have a professional image taken therefore I just used a stock image as a placeholder for now.
