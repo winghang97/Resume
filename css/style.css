@@ -10,11 +10,12 @@ Table Of Contents
  2. Main Nav
  3. Main Header
  4. Home
- 5. About Me
- 6. Resume
- 7. Contact
- 8. Footer
- 9. Media Queries
+ 5. Skills
+ 6. About Me
+ 7. Resume
+ 8. Contact
+ 9. Footer
+ 10. Media Queries
 -----------------------------------------------------------------*/
 
 /* --------------------------------------
@@ -23,11 +24,11 @@ Table Of Contents
 
 * {
   box-sizing: border-box;
+  color: #fff;
 }
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: #282929;
   font-size: 18px;
 }
 
@@ -36,14 +37,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
 }
 
 .name,
 a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -64,6 +65,10 @@ img {
   max-width: 100%;
 }
 
+.padding-left-52px {
+  padding-left: 52px !important;
+}
+
 /*  ==============
     base layout 
 ================= */
@@ -76,15 +81,8 @@ img {
   padding-bottom: 50px;
 }
 
-.main-header,
-.about-me,
-.skills,
-.main-footer {
-  background-color: #2c2d2d;
-}
 
 .main-title h2 {
-  color: #fff;
   font-weight: 600;
   font-size: 2em;
   line-height: 1;
@@ -95,7 +93,6 @@ img {
 }
 
 .main-title h3 {
-  color: #fff;
   font-weight: 600;
   letter-spacing: 0.7px;
   text-transform: uppercase;
@@ -111,6 +108,23 @@ img {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.box-with-line {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 2px solid #f5b109;
+  background-color: #2c2d2d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section:nth-child(odd) {
+  background-color: #282929;
+}
+
+section:nth-child(even) {
+  background-color: #2c2d2d;
 }
 
 /* --------------------------------------
@@ -156,7 +170,6 @@ img {
 }
 
 .home h1 {
-  color: #fff;
   font-size: 50px;
   margin: 30px 0;
   font-weight: 800;
@@ -180,7 +193,7 @@ img {
 -----------------------------------------*/
 
 .about-me .about-intro {
-  color: #fff;
+
   line-height: 1.8;
   font-weight: 400;
   font-size: 1.25em;
@@ -190,7 +203,6 @@ img {
   padding: 15px 25px;
   text-align: center;
   cursor: pointer;
-  color: #fff;
   background-color: #f5b109;
   border: none;
   border-radius: 24px;
@@ -208,27 +220,29 @@ img {
 }
 
 /* --------------------------------------
-   5. Resume
+   5. Skills
+-----------------------------------------*/
+
+.skills .item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+/* --------------------------------------
+   6. Resume
 -----------------------------------------*/
 
 .col {
   padding-bottom: 15px;
 }
 
-.resume .item {
-  position: relative;
-  padding: 20px;
-  margin-bottom: 30px;
-  border-left: 2px solid #f5b109;
-  background-color: #2c2d2d;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 .resume .item h3 {
   font-size: 20px;
   font-weight: 600;
   line-height: 1;
-  color: #fff;
   margin-bottom: 10px;
 }
 
@@ -243,14 +257,12 @@ img {
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0.3px;
-  color: #fff;
   margin-left: 4px;
   padding-left: 8px;
   border-left: 1px solid #f5b109;
 }
 
 .resume .item h4 {
-  color: #fff;
   line-height: 1.8;
   font-size: 18px;
   font-weight: 400;
@@ -260,13 +272,11 @@ img {
 }
 
 .resume .item h5 {
-  color: #fff;
   font-size: 18px;
   font-weight: 400;
 }
 
 .resume .item h6 {
-  color: #fff;
   font-size: 17px;
   font-weight: 400;
   margin-top: 10px;
@@ -274,7 +284,6 @@ img {
 }
 
 .resume .item p {
-  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -291,11 +300,10 @@ img {
   text-align: center;
   border-radius: 50%;
   font-size: 16px;
-  color: #fff;
 }
 
 /* --------------------------------------
-   7. Contact
+   8. Contact
 -----------------------------------------*/
 
 .contact .contact-box {
@@ -317,11 +325,9 @@ img {
   line-height: 35px;
   border-radius: 50%;
   font-size: 16px;
-  color: #fff;
 }
 
 .contact .contact-box h4 {
-  color: #fff;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -329,22 +335,20 @@ img {
 }
 
 .content-contact-box {
-  color: #fff;
   font-size: 20px;
 }
 
 /* --------------------------------------
-   8. Main Footer
+   9. Main Footer
 -----------------------------------------*/
 
 .main-footer {
   text-align: center;
-  color: #fff;
   padding: 35px 0;
 }
 
 /* --------------------------------------
-   9. Media Queries
+   10. Media Queries
 -----------------------------------------*/
 
 @media only screen and (min-width: 768px),
@@ -409,11 +413,11 @@ img {
     padding-left: 1em;
     padding-right: 1em;
   }
-
+/* 
   .resume .education,
   .resume .experience {
     padding-left: 52px;
-  }
+  } */
 
   .icon {
     top: 10px;
@@ -423,9 +427,8 @@ img {
   /*  ==============
     contact 
 ================= */
-  .contact .contact-boxes {
-    padding-left: 52px;
-  }
+
+
 
   .icon-box {
     top: 10px;
@@ -483,13 +486,7 @@ img {
     resume 
 ================= */
 
-  .resume .education,
-  .resume .experience {
-    padding-left: 52px;
-  }
-
-  .resume .education,
-  .resume .experience {
+  .width-50 {
     width: 50%;
   }
 
