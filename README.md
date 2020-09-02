@@ -19,3 +19,6 @@ In this section I have included my address, my email and my phone number.
 
 ## Webpage on Github Pages
 https://winghang97.github.io/Resume/
+
+# Future edits
+- Take a professional photo and replace the stock image
