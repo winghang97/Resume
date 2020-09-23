@@ -25,6 +25,7 @@ Table Of Contents
 * {
   box-sizing: border-box;
   color: #fff;
+  background-color: #282929;
 }
 
 body {
@@ -80,7 +81,6 @@ img {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 
 .main-title h2 {
   font-weight: 600;
@@ -193,7 +193,6 @@ section:nth-child(even) {
 -----------------------------------------*/
 
 .about-me .about-intro {
-
   line-height: 1.8;
   font-weight: 400;
   font-size: 1.25em;
@@ -229,7 +228,6 @@ section:nth-child(even) {
   line-height: 1.5;
 }
 
-
 /* --------------------------------------
    6. Resume
 -----------------------------------------*/
@@ -237,7 +235,6 @@ section:nth-child(even) {
 .col {
   padding-bottom: 15px;
 }
-
 
 .resume .item h3 {
   font-size: 20px;
@@ -413,7 +410,7 @@ section:nth-child(even) {
     padding-left: 1em;
     padding-right: 1em;
   }
-/* 
+  /* 
   .resume .education,
   .resume .experience {
     padding-left: 52px;
@@ -427,8 +424,6 @@ section:nth-child(even) {
   /*  ==============
     contact 
 ================= */
-
-
 
   .icon-box {
     top: 10px;
