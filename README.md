@@ -17,8 +17,8 @@ I have not added anything in my first commit as I am still editing this informat
 ## Contact Me
 In this section I have included my address, my email and my phone number.
 
-## Website on Github Pages
+## Webpage on Github Pages
 https://winghang97.github.io/Resume/
 
-
-- update to the latest version
+# Future edits
+- Take a professional photo and replace the stock image
