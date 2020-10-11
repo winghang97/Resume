@@ -8,11 +8,11 @@ I used `flexbox` layout as much as I can to make my webpage responsive.
 ## About Me
 This section is about me as a person. The picture on the left for my first commit is **NOT** me. I did not have a professional image taken therefore I just used a stock image as a placeholder for now.
 
-## My Resume
-This section is about my education and my work experience. 
+## My Skills
+This section is about my technical skills and soft skills
 
-## Skills and Abilities
-I have not added anything in my first commit as I am still editing this information.
+## My Resume
+This section is about my education, work experience, and projects that I worked on.
 
 ## Contact Me
 In this section I have included my address, my email and my phone number.
