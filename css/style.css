@@ -25,7 +25,7 @@ Table Of Contents
 * {
   box-sizing: border-box;
   color: #fff;
-  background-color: #282929;
+  /* background-color: #282929; */
 }
 
 body {
@@ -64,10 +64,6 @@ li {
 
 img {
   max-width: 100%;
-}
-
-.padding-left-52px {
-  padding-left: 52px !important;
 }
 
 /*  ==============
@@ -180,6 +176,7 @@ section:nth-child(even) {
 .main-nav a.icon-nav {
   float: right;
   display: block;
+  margin-top: -1.5em;
 }
 
 /* --------------------------------------
@@ -188,8 +185,7 @@ section:nth-child(even) {
 
 .main-header {
   padding-top: 1.5em;
-  padding-bottom: 1em;
-  margin-bottom: 30px;
+  padding-bottom: 2.5em;
 }
 
 .home h3 {
@@ -197,6 +193,7 @@ section:nth-child(even) {
   font-size: 28px;
   font-weight: 800;
   margin: 0;
+  padding-top: 1em;
 }
 
 .home h1 {
@@ -449,6 +446,10 @@ div .icon {
   div .icon {
     top: 10px;
     left: -53px;
+  }
+
+  .padding-left-52px {
+    padding-left: 52px !important;
   }
 
   /*  ==============
